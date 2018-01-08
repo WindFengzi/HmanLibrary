@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">HmanLibrary</string>
+
+    <!--我-->
+    <string name="my_center">个人中心</string>
+    <string name="my_detail">个人详情></string>
+    <string name="my_message">消息</string>
+    <string name="my_2g_3g_download">3G/4G流量运行下载</string>
+    <string name="my_allow_login">允许自动登录</string>
+    <string name="my_delete_save">清除缓存</string>
+    <string name="my_feed_back">意见反馈</string>
+    <string name="my_about">关于</string>
+    <string name="version_name">V</string>
+
+    <!--关于-->
+    <string name="about_company">公司</string>
+    <string name="about_http">公司网址</string>
+    <string name="about_mail">公司邮箱</string>
+    <string name="about_contact_phone">联系电话</string>
+    <string name="about_address">联系地址</string>
+    <string name="about_company_message">浙江东太科技有限公司</string>
+    <string name="about_http_message">http://www.eastsun.net/</string>
+    <string name="about_mail_message">eastsun.zj@163.com</string>
+    <string name="about_contact_message">0571-88368111</string>
+    <string name="about_address_message">浙江省杭州市西湖区古墩路616号同人精华大厦A座1603室</string>
+    <string name="clear_cache_message_input">请输入您的意见......</string>
+    <string name="about_contact_us">联系我们</string>
+    <string name="about_function">功能介绍</string>
+    <string name="about_service_agreement">服务协议</string>
+
+    <!--提示信息-->
+    <string name="again_click_loginout">再按一次退出程序</string>
+    <string name="plant_name_not_null">名称不能为空</string>
+    <string name="plant_content_not_null">内容不能为空</string>
+    <string name="username_password_not_null">用户名和密码不能为空</string>
+    <string name="phone_must_is_true">填写正确的手机号</string>
+    <string name="phone_not_null">请输入手机号</string>
+    <string name="password_not_null">密码不能为空</string>
+    <string name="password_must_same">密码应该一致</string>
+    <string name="feed_back_not_null">反馈信息不能为空</string>
+    <string name="no_have_more">沒有更多了</string>
+    <string name="please_register">请先注册</string>
+    <string name="resource_is_error">资源出错，请重新上传资源</string>
+    <string name="regesiter_is_error">登录信息有误，请有效用户登录或重新注册</string>
+    <string name="login_name_is_null">请输入用户</string>
+    <string name="login_password_is_null">请输入密码</string>
+    <string name="login_fail">登录失败</string>
+    <string name="not_ask_please">还未回答，请耐心等待</string>
+    <string name="re_send_message">重新发送信息</string>
+    <string name="verify_message_fail">验证失败</string>
+
+    <string name="open_document">打开文档</string>
+    <string name="header_collection">收藏</string>
+    <string name="cancel_collection">取消收藏</string>
+    <!--修改密码-->
+    <string name="forget_password">忘记密码</string>
+    <string name="submit">提交</string>
+    <string name="modify_password">修改密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="register_password">密码</string>
+    <string name="register_repassword">确定密码</string>
+
+    <string name="no_data">无数据</string>
+
+    <!--adapter_custom_img_text_item-->
+    <string name="img_header">标题</string>
+    <string name="img_content">内容内容</string>
+    <string name="img_nio">序号</string>
+
+    <!--请输入-->
+    <string name="input_in">请输入...</string>
+
+    <string name="add_control_add">添加</string>
+</resources>

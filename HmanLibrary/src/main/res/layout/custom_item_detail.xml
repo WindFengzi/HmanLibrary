@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_root_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+        <TextView
+            android:id="@+id/detail_left_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="@dimen/dp_16"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="99"/>
+
+        <ImageView
+            android:id="@+id/detail_right_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/right_next_black"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/detail_right_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp_14"
+            android:textColor="@color/main_bottom_tab_textcolor_normal"
+            android:layout_toLeftOf="@id/detail_right_icon"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_centerInParent="true"/>
+
+        <com.hzx.view.CircleImageView
+            android:id="@+id/detail_mine_me_header"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:border_width="1dp"
+            app:border_color="@color/white"
+            android:layout_toLeftOf="@id/detail_right_icon"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_centerInParent="true"/>
+
+    <!--</RelativeLayout>-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/line"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

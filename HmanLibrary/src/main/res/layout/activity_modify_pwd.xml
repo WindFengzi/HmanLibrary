@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_fragment">
+
+    <include
+        android:id="@+id/layout_header"
+        layout="@layout/activity_header" />
+
+    <!-- 旧密码 -->
+    <RelativeLayout
+        android:id="@+id/old_password_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/old_password_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/register_text_size_name"
+            android:layout_marginLeft="@dimen/register_text_frame"
+            android:text="@string/old_password"/>
+
+        <EditText
+            android:id="@+id/old_forget_pwd_pwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/register_text_edit"
+            android:background="@null"
+            android:textSize="@dimen/register_text_size_name"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/old_password_tv"
+            android:layout_marginRight="@dimen/register_text_frame"
+            android:inputType="numberPassword"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/old_password_rl"
+        android:background="@mipmap/line"/>
+
+    <!-- 密码 -->
+    <RelativeLayout
+        android:id="@+id/password_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/password_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/register_text_size_name"
+            android:layout_marginLeft="@dimen/register_text_frame"
+            android:text="@string/new_password"/>
+
+        <EditText
+            android:id="@+id/forget_pwd_pwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/register_text_edit"
+            android:background="@null"
+            android:textSize="@dimen/register_text_size_name"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/password_tv"
+            android:layout_marginRight="@dimen/register_text_frame"
+            android:inputType="numberPassword"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_rl"
+        android:background="@mipmap/line"/>
+
+    <!-- 确定密码 -->
+    <RelativeLayout
+        android:id="@+id/repassword_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/repassword_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/register_text_size_name"
+            android:layout_marginLeft="@dimen/register_text_frame"
+            android:text="@string/register_repassword"/>
+
+        <EditText
+            android:id="@+id/forget_pwd_re_pwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/register_text_edit"
+            android:background="@null"
+            android:textSize="@dimen/register_text_size_name"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/repassword_tv"
+            android:layout_marginRight="@dimen/register_text_frame"
+            android:inputType="numberPassword"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repassword_rl"
+        android:background="@mipmap/line"/>
+
+
+    <Button
+        android:id="@+id/forget_pwd_commit_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/register_text_size_name"
+        android:background="@drawable/image_btn_check_press" />
+
+</LinearLayout>

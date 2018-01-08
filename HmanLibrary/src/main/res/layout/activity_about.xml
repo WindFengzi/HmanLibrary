@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hman="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_fragment">
+    <include
+        android:id="@+id/layout_header"
+        layout="@layout/activity_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/about_version_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_marginBottom="@dimen/dp_30"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bg_fragment"/>
+
+        <!--功能介绍-->
+        <com.hzx.view.CustomItemDetailView
+            android:id="@+id/my_info_address"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/my_item_height"
+            hman:left_name="@string/about_function"
+            hman:left_name_color="@color/info_left_color"
+            hman:right_icon="@mipmap/btn_back_logo">
+
+        </com.hzx.view.CustomItemDetailView>
+
+        <!--联系我们-->
+        <com.hzx.view.CustomItemDetailView
+            android:id="@+id/about_contact_us"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/my_item_height"
+            hman:left_name="@string/about_contact_us"
+            hman:left_name_color="@color/info_left_color"
+            hman:right_icon="@mipmap/btn_back_logo">
+
+        </com.hzx.view.CustomItemDetailView>
+
+        <!--服务协议-->
+        <!-- http://127.0.0.1:8080/waterquality/water_service.html -->
+        <com.hzx.view.CustomItemDetailView
+            android:id="@+id/about_service_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/my_item_height"
+            hman:left_name="@string/about_service_agreement"
+            hman:left_name_color="@color/info_left_color"
+            hman:right_icon="@mipmap/btn_back_logo"/>
+
+        </LinearLayout>
+
+</LinearLayout>
